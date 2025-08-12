@@ -1,0 +1,22 @@
+{
+  "device_connections": {
+    "ios_d1a5c3b8": {
+      "other_accounts": [],
+      "exclusive_to_customer": true,
+      "device_age_days": 487
+    }
+  },
+  "merchant_connections": {
+    "recent_merchants": {
+      "trusted_merchants": 145,
+      "new_merchants_last_30_days": 3,
+      "merchant_risk_scores": "low"
+    }
+  },
+  "customer_relationships": {
+    "family_accounts": 0,
+    "joint_accounts": 0,
+    "beneficiaries": 12,
+    "recurring_transfers": 5
+  }
+}

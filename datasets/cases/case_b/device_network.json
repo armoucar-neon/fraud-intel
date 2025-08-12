@@ -1,0 +1,22 @@
+{
+  "application_device": {
+    "device_fingerprint": "and_4c1f3e2a",
+    "device_type": "mobile",
+    "os": "Android 9",
+    "rooted": true,
+    "emulator_detected": false,
+    "ip_address": "177.45.123.67",
+    "ip_type": "mobile_cgnat",
+    "location": "Curitiba, PR",
+    "first_seen": "2025-08-10T14:30:00-03:00",
+    "prior_applications_on_device": 11,
+    "prior_blocked_applications": 11,
+    "failed_applications": 11
+  },
+  "device_history": {
+    "total_identities_seen": 12,
+    "blocked_identities": 11,
+    "successful_accounts": 0,
+    "chargebacks_linked": 2
+  }
+}

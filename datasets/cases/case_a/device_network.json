@@ -1,0 +1,28 @@
+{
+  "current_session": {
+    "timestamp": "2025-08-10T18:02:00-03:00",
+    "device_fingerprint": "dfp_e3b4f2a1",
+    "device_type": "desktop",
+    "os": "Windows 10",
+    "browser": "Chrome 126",
+    "ip_address": "185.199.110.34",
+    "asn": "Hosting Provider",
+    "location": "Frankfurt, DE",
+    "vpn_proxy_detected": true,
+    "first_seen_age_days": 0,
+    "risk_score": "high"
+  },
+  "last_known_good": {
+    "timestamp": "2025-08-08T10:21:00-03:00",
+    "device_fingerprint": "dfp_7aa9c3d2",
+    "device_type": "mobile",
+    "device_model": "iPhone 14",
+    "location": "São Paulo, BR",
+    "ip_address": "189.45.67.123"
+  },
+  "geovelocity": {
+    "distance_km": 9900,
+    "time_minutes": 1,
+    "possibility": "impossible"
+  }
+}

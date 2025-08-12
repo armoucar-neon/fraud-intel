@@ -1,0 +1,25 @@
+{
+  "current_session": {
+    "device_fingerprint": "ios_d1a5c3b8",
+    "device_type": "mobile",
+    "device_model": "iPhone 13",
+    "os": "iOS 16.5",
+    "jailbroken": false,
+    "app_version": "4.2.1",
+    "ip_address": "85.240.45.123",
+    "asn": "Hotel WiFi Network",
+    "location": "Lisbon, PT",
+    "risk_score": "medium"
+  },
+  "device_consistency": {
+    "same_device_as_usual": true,
+    "device_age_days": 487,
+    "device_trust_score": 0.95
+  },
+  "location_match": {
+    "gps_consent": true,
+    "gps_location": "Lisbon, PT",
+    "ip_location": "Lisbon, PT",
+    "match": true
+  }
+}

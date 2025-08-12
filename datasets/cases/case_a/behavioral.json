@@ -1,0 +1,30 @@
+{
+  "session_duration_seconds": 1500,
+  "two_fa_attempts": [
+    {
+      "method": "sms_otp",
+      "attempts": 2,
+      "status": "failed"
+    },
+    {
+      "method": "fallback_email",
+      "attempts": 1,
+      "status": "success"
+    }
+  ],
+  "typing_patterns": {
+    "consistency": "low",
+    "speed_wpm": 85
+  },
+  "mouse_patterns": {
+    "movement": "erratic",
+    "clicks": 42
+  },
+  "page_navigation": [
+    "login",
+    "password_reset",
+    "account_dashboard",
+    "beneficiary_add",
+    "transfer_initiate"
+  ]
+}

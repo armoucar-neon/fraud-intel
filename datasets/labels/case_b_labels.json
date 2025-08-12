@@ -1,0 +1,28 @@
+{
+  "hypotheses": [
+    "Synthetic Identity Fraud",
+    "Document Fraud",
+    "Serial Application Fraud"
+  ],
+  "supporting_evidence": [
+    "Document tampering with edge artifacts detected",
+    "Failed MRZ checksum on ID document",
+    "Low liveness score (0.48) and face match (0.56)",
+    "Rooted Android device with 11 prior blocked applications",
+    "Device linked to 7 different identities with 2 chargebacks",
+    "New email domain (12 days) and recently registered phone (8 days)",
+    "Copy-paste behavior for name and ID fields",
+    "Application abandoned when proof of address requested"
+  ],
+  "confidence_scores": [0.92, 0.88, 0.85],
+  "contradictions": [],
+  "missing_info_requests": [
+    "Manual document verification by specialist",
+    "Cross-reference with other blocked applications for pattern",
+    "Check if external bank account exists"
+  ],
+  "draft_narrative": "Application exhibits clear synthetic identity patterns with tampered documents showing edge artifacts and failed MRZ validation. Rooted Android device previously used for 11 blocked applications across 7 different identities. Behavioral indicators include copy-paste of personal data, minimal digital footprint (12-day email domain, 8-day phone), and abandonment when proof of address requested. High likelihood of organized synthetic identity creation for future bust-out fraud.",
+  "headline": "Synthetic identity with tampered documents on compromised device",
+  "final_decision": "Confirmed Fraud",
+  "fraud_type": "Synthetic Identity"
+}

@@ -1,0 +1,22 @@
+{
+  "session_duration_seconds": 245,
+  "two_fa_attempts": [
+    {
+      "method": "push_notification",
+      "attempts": 1,
+      "status": "success"
+    }
+  ],
+  "typing_patterns": {
+    "consistency": "normal",
+    "matches_history": true
+  },
+  "app_interaction": {
+    "screens_viewed": [
+      "dashboard",
+      "transactions",
+      "travel_note_confirmation"
+    ],
+    "normal_usage_pattern": true
+  }
+}

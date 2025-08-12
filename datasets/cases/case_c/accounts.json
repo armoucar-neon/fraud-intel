@@ -1,0 +1,25 @@
+{
+  "current_account": "ACCT-556789",
+  "card_number": "**** 3421",
+  "account_status": "active",
+  "account_opened": "2021-02-10",
+  "limits": {
+    "daily_transfer": 50000,
+    "daily_withdrawal": 10000,
+    "cnp_limit": 15000,
+    "temporary_cnp_increase": 16500
+  },
+  "travel_notes": [
+    {
+      "start_date": "2025-08-05",
+      "end_date": "2025-08-15",
+      "destinations": ["Portugal", "Spain"],
+      "added_via": "mobile_app",
+      "added_timestamp": "2025-08-03T10:15:00-03:00"
+    }
+  ],
+  "chargeback_history": {
+    "total_chargebacks": 0,
+    "last_3_years": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "hypotheses": [
+    "Legitimate Travel Spending",
+    "Normal Customer Activity",
+    "Authorized International Transactions"
+  ],
+  "supporting_evidence": [
+    "Travel note set for Portugal & Spain (Aug 5-15) matches transaction locations",
+    "Same iPhone 13 device used consistently for 487 days",
+    "Successful 3DS authentication on all CNP transactions",
+    "GPS location matches IP location in Lisbon",
+    "Zero chargebacks in 3 years of account history",
+    "Normal behavioral patterns and successful push notification 2FA",
+    "Merchant categories align with travel (museum, airline, hotel)"
+  ],
+  "confidence_scores": [0.88, 0.85, 0.82],
+  "contradictions": [],
+  "missing_info_requests": [],
+  "draft_narrative": "Legitimate customer travel spending in Portugal aligning with pre-declared travel window (Aug 5-15). All transactions from trusted iPhone device (487 days old) with successful authentication. Transaction pattern consistent with tourism: museum tickets, airline fees, and hotel authorization. Strong customer history with zero chargebacks over 3 years supports genuine activity.",
+  "headline": "Legitimate travel spending with pre-declared travel note",
+  "final_decision": "Not Fraud (Genuine)",
+  "fraud_type": null
+}

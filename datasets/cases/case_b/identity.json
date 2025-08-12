@@ -1,0 +1,18 @@
+{
+  "name": "Maria Luiza Alves",
+  "dob": "2002-11-03",
+  "national_id": "987.654.321-00",
+  "ssn_cpf": "987.654.321-00",
+  "address": "Rua das Flores 123, Curitiba, PR",
+  "email": "maria.alves2002@newdomain.com",
+  "email_domain_age_days": 12,
+  "phone": "+55 41 99123-4567",
+  "phone_registered_days_ago": 8,
+  "kyc_status": "pending",
+  "document_uploaded": true,
+  "liveness_score": 0.48,
+  "face_match_score": 0.56,
+  "mrz_checksum": "fail",
+  "document_tampering_detected": true,
+  "edge_artifacts_detected": true
+}

@@ -1,0 +1,38 @@
+{
+  "application_risk_score": 0.91,
+  "risk_band": "very_high",
+  "triggered_rules": [
+    {
+      "rule_id": "R-510",
+      "description": "Rooted device detected",
+      "severity": "high"
+    },
+    {
+      "rule_id": "R-612",
+      "description": "Document tampering detected",
+      "severity": "critical"
+    },
+    {
+      "rule_id": "R-433",
+      "description": "Device linked to multiple identities",
+      "severity": "high"
+    }
+  ],
+  "top_features": [
+    {
+      "feature": "device_prior_blocks",
+      "value": 11,
+      "importance": 0.35
+    },
+    {
+      "feature": "document_tamper_score",
+      "value": 0.89,
+      "importance": 0.28
+    },
+    {
+      "feature": "liveness_score",
+      "value": 0.48,
+      "importance": 0.22
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "hypotheses": [
+    "Account Takeover (ATO)",
+    "Money Mule Transfer",
+    "Credential Compromise"
+  ],
+  "supporting_evidence": [
+    "Password reset at 18:03 followed by new device registration at 18:05",
+    "Login from Frankfurt hosting provider IP (185.199.110.34) with VPN detected",
+    "Impossible geovelocity: São Paulo to Frankfurt in 1 minute",
+    "2FA bypassed via fallback email after SMS failures",
+    "Beneficiary BEN-70211 linked to 3 prior fraud cases as money mule",
+    "High-value PIX transfer (R$ 18,900) to first-time beneficiary"
+  ],
+  "confidence_scores": [0.95, 0.92, 0.88],
+  "contradictions": [],
+  "missing_info_requests": [
+    "Customer travel status verification",
+    "Phone call attempt to verify with customer",
+    "Email delivery status check"
+  ],
+  "draft_narrative": "Compromised account accessed from Frankfurt hosting provider minutes after password reset. Rapid high-value PIX transfer (R$ 18,900) initiated to beneficiary BEN-70211 with confirmed money mule history (3 prior fraud cases). Evidence strongly supports account takeover: impossible geovelocity (São Paulo to Frankfurt in 1 min), new device on hosting ASN, 2FA bypass via fallback email, and immediate transfer to known fraudulent destination.",
+  "headline": "Account takeover with rapid transfer to known money mule",
+  "final_decision": "Confirmed Fraud",
+  "fraud_type": "Account Takeover"
+}

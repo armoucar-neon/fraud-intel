@@ -1,0 +1,23 @@
+{
+  "time_on_page_seconds": 42,
+  "typing_patterns": {
+    "name_field": "pasted",
+    "id_field": "pasted",
+    "consistency": "inconsistent"
+  },
+  "form_interaction": {
+    "fields_copy_pasted": ["full_name", "national_id"],
+    "selfie_upload_method": "copy_paste",
+    "form_abandonment": true,
+    "abandoned_at": "proof_of_address"
+  },
+  "navigation_pattern": [
+    "landing_page",
+    "application_start",
+    "personal_info",
+    "document_upload",
+    "selfie_capture",
+    "proof_of_address_request",
+    "abandonment"
+  ]
+}

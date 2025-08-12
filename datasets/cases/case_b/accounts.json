@@ -1,0 +1,24 @@
+{
+  "application_status": "pending_review",
+  "application_timestamp": "2025-08-10T14:30:00-03:00",
+  "account_type": "checking",
+  "requested_products": ["debit_card", "mobile_banking"],
+  "funding_attempts": [
+    {
+      "timestamp": "2025-08-10T14:45:00-03:00",
+      "type": "micro_deposit",
+      "amount": 0.01,
+      "source_bank": "External Bank ABC",
+      "status": "reversed_next_day"
+    },
+    {
+      "timestamp": "2025-08-10T14:46:00-03:00",
+      "type": "micro_deposit",
+      "amount": 0.02,
+      "source_bank": "External Bank ABC",
+      "status": "reversed_next_day"
+    }
+  ],
+  "proof_of_address_provided": false,
+  "application_abandoned_at_step": "proof_of_address"
+}

@@ -1,0 +1,27 @@
+{
+  "current_account": "ACCT-884231",
+  "card_number": "**** 6621",
+  "account_status": "active",
+  "account_opened": "2021-03-15",
+  "limits": {
+    "daily_transfer": 20000,
+    "daily_withdrawal": 5000,
+    "cnp_limit": 10000
+  },
+  "recent_changes": [
+    {
+      "timestamp": "2025-08-10T18:03:00-03:00",
+      "change_type": "password_reset"
+    },
+    {
+      "timestamp": "2025-08-10T18:05:00-03:00",
+      "change_type": "new_device_registered"
+    },
+    {
+      "timestamp": "2025-08-10T18:18:00-03:00",
+      "change_type": "new_beneficiary_added",
+      "beneficiary_id": "BEN-70211",
+      "beneficiary_name": "Carlos M."
+    }
+  ]
+}

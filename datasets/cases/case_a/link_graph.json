@@ -1,0 +1,24 @@
+{
+  "beneficiary_connections": {
+    "BEN-70211": {
+      "prior_fraud_cases": 3,
+      "fraud_cases_last_7_days": 3,
+      "fraud_type": "money_mule",
+      "shared_attributes": ["destination_account"],
+      "total_fraud_amount": 87500.00
+    }
+  },
+  "device_connections": {
+    "dfp_e3b4f2a1": {
+      "other_accounts": [],
+      "first_seen": "2025-08-10T18:02:00-03:00"
+    }
+  },
+  "email_connections": {
+    "joao.pereira@example.com": {
+      "other_accounts": [],
+      "email_age_days": 1460,
+      "recent_bounce": true
+    }
+  }
+}

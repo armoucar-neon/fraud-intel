@@ -1,0 +1,32 @@
+{
+  "transactions": [
+    {
+      "timestamp": "2025-08-08T10:21:00-03:00",
+      "type": "login",
+      "channel": "mobile_app",
+      "location": "São Paulo, BR",
+      "status": "success"
+    },
+    {
+      "timestamp": "2025-08-10T18:26:00-03:00",
+      "type": "pix_transfer",
+      "amount": 18900.00,
+      "currency": "BRL",
+      "recipient": "BEN-70211",
+      "recipient_name": "Carlos M.",
+      "memo": "consulting",
+      "first_time_beneficiary": true,
+      "status": "completed"
+    },
+    {
+      "timestamp": "2025-08-10T18:29:00-03:00",
+      "type": "pix_transfer",
+      "amount": 3500.00,
+      "currency": "BRL",
+      "recipient": "BEN-70211",
+      "recipient_name": "Carlos M.",
+      "memo": "payment",
+      "status": "queued"
+    }
+  ]
+}

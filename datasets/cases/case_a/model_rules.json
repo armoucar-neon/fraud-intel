@@ -1,0 +1,38 @@
+{
+  "model_score": 0.94,
+  "risk_band": "very_high",
+  "triggered_rules": [
+    {
+      "rule_id": "R-119",
+      "description": "New device + high amount transfer",
+      "severity": "high"
+    },
+    {
+      "rule_id": "R-204",
+      "description": "Impossible geovelocity detected",
+      "severity": "critical"
+    },
+    {
+      "rule_id": "R-331",
+      "description": "Transfer to known money mule account",
+      "severity": "critical"
+    }
+  ],
+  "top_features": [
+    {
+      "feature": "device_first_seen_age",
+      "value": 0,
+      "importance": 0.31
+    },
+    {
+      "feature": "geovelocity_possibility",
+      "value": "impossible",
+      "importance": 0.28
+    },
+    {
+      "feature": "beneficiary_fraud_history",
+      "value": 3,
+      "importance": 0.25
+    }
+  ]
+}

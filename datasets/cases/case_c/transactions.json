@@ -1,0 +1,36 @@
+{
+  "transactions": [
+    {
+      "timestamp": "2025-08-10T09:20:00+01:00",
+      "type": "cnp_purchase",
+      "amount": 85.40,
+      "currency": "EUR",
+      "merchant": "Lisbon Museum Store",
+      "merchant_country": "PT",
+      "authentication": "3ds_successful",
+      "status": "approved"
+    },
+    {
+      "timestamp": "2025-08-10T09:34:00+01:00",
+      "type": "cnp_purchase",
+      "amount": 312.00,
+      "currency": "EUR",
+      "merchant": "Iberia Airlines",
+      "merchant_country": "ES",
+      "merchant_category": "airline",
+      "authentication": "3ds_frictionless",
+      "avs_result": "partial_match",
+      "status": "approved"
+    },
+    {
+      "timestamp": "2025-08-10T10:02:00+01:00",
+      "type": "hotel_authorization",
+      "amount": 1120.00,
+      "currency": "EUR",
+      "merchant": "Boutique Hotel Lisboa",
+      "merchant_country": "PT",
+      "merchant_category": "hotel",
+      "status": "authorized_hold"
+    }
+  ]
+}

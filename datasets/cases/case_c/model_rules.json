@@ -1,0 +1,34 @@
+{
+  "model_score": 0.78,
+  "risk_band": "medium_high",
+  "triggered_rules": [
+    {
+      "rule_id": "R-210",
+      "description": "Country jump detected",
+      "severity": "medium"
+    }
+  ],
+  "mitigating_factors": [
+    "Travel note matches transaction location",
+    "Same trusted device",
+    "3DS authentication successful",
+    "Long positive history"
+  ],
+  "top_features": [
+    {
+      "feature": "country_change",
+      "value": true,
+      "importance": 0.42
+    },
+    {
+      "feature": "spend_burst_24h",
+      "value": 1517.40,
+      "importance": 0.28
+    },
+    {
+      "feature": "travel_note_present",
+      "value": true,
+      "importance": -0.35
+    }
+  ]
+}
