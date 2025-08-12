@@ -14,8 +14,6 @@ This project implements three core fraud analysis modules using DSPy:
 
 ```bash
 # Install dependencies
-pip install -e .
-# or with uv
 uv sync
 
 # Copy and configure environment variables
