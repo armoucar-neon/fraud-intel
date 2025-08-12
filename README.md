@@ -23,6 +23,8 @@ cp .env.sample .env
 
 ## Usage
 
+Ensure your OpenAI API key is set in `.env` before running.
+
 Each module can be run independently with `uv run` and supports two modes:
 
 - **demo**: Run on a single example with detailed output
